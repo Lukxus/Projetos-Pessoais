@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bankAccounts>
+    <account>
+        <accountNumber>12345678</accountNumber>
+        <holderName>Maria Silva</holderName>
+        <balance>2500.75</balance>
+        <accountType>Checking</accountType>
+        <agency>001</agency>
+    </account>
+    <account>
+        <accountNumber>87654321</accountNumber>
+        <holderName>João Souza</holderName>
+        <balance>14500.50</balance>
+        <accountType>Savings</accountType>
+        <agency>002</agency>
+    </account>
+    <account>
+        <accountNumber>11223344</accountNumber>
+        <holderName>Ana Pereira</holderName>
+        <balance>780.20</balance>
+        <accountType>Checking</accountType>
+        <agency>003</agency>
+    </account>
+    <account>
+        <accountNumber>44332211</accountNumber>
+        <holderName>Pedro Oliveira</holderName>
+        <balance>5200.00</balance>
+        <accountType>Investment</accountType>
+        <agency>004</agency>
+    </account>
+</bankAccounts>
