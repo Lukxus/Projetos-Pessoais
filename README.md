@@ -41,6 +41,33 @@ serem iniciadas, poderia automatizar essa etapa. Assim foram criados os starters
 ![img_3.png](img_3.png)
 
 
-# Iniciando um projeto
+# Bean vs Component
 
-1. Criar o projeto: https://start.spring.io
+Utilizamos component quando temos acesso ao código fonte 
+e Bean quando não temos mas precisamos injetar essa dependencia
+no projeto. Seria possível colocar o Bean dentro da classe principal da aplicação,
+mas isso polui a classe:
+
+![img_8.png](img_8.png)
+
+# Prototype vs Singleton
+
+Prototype: A cada necessidade da 
+aplicação existirá uma instancia da dependencia utilizada
+
+Singleton: Existirá uma unica instancia da dependencia 
+utilizada 
+
+# JPA
+
+![img_12.png](img_12.png)
+
+![img_13.png](img_13.png)
+
+![img_14.png](img_14.png) 
+
+# ORM
+
+![img_10.png](img_10.png)
+
+![img_11.png](img_11.png)
